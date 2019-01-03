@@ -8,6 +8,7 @@ import { RegisterPageComponent } from './componentes/register-page/register-page
 import { LoginPageComponent } from './componentes/login-page/login-page.component';
 import { PrivadoPageComponent } from './componentes/privado-page/privado-page.component';
 import { NotFoundPageComponent } from './componentes/not-found-page/not-found-page.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NotFoundPageComponent } from './componentes/not-found-page/not-found-pa
     NotFoundPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
